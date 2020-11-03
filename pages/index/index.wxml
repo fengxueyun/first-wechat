@@ -12,7 +12,7 @@
   </view>
 
   <div>
-    <button bindtap='mybtn1' class="btn">按钮1</button>
+    <button bindtap='mybtn1' class="btn">点我呀</button>
     <div>
         <button class="btn">按钮2</button>
     </div>
