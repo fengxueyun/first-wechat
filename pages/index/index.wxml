@@ -10,4 +10,16 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+
+  <div>
+    <button bindtap='mybtn1' class="btn">按钮1</button>
+    <div>
+        <button class="btn">按钮2</button>
+    </div>
+</div>
+
+<view>
+  <!-- 图片直接拿了哔哩哔哩的，万一以后打不开了，大家自己随便找个图 -->
+  <image bindload='imgLoad' src='https://i0.hdslb.com/bfs/live/6c41e9f57094fae13728cd27e7d1c1379a3f1fcd.jpg@320w_330h_1c_100q.webp'></image>
+</view>
 </view>

@@ -19,3 +19,12 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.bth{
+  outline:none;
+  border:none;
+  background:#e4393c;
+  color:#fff;
+  text-align: center;
+  cursor: pointer;
+}

@@ -15,6 +15,16 @@ Page({
       url: '../logs/logs'
     })
   },
+
+  mybtn1(){
+    console.log("按钮111111点我");
+  },
+
+  //图片加载完成后执行的方法
+  imgLoad(image) {
+    console.log(image.detail.width);
+  },
+
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
